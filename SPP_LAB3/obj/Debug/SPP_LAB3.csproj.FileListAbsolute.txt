@@ -1,0 +1,15 @@
+C:\Users\vital\RiderProjects\SPP_LAB3\SPP_LAB3\bin\Debug\SPP_LAB3.exe.config
+C:\Users\vital\RiderProjects\SPP_LAB3\SPP_LAB3\bin\Debug\SPP_LAB3.exe
+C:\Users\vital\RiderProjects\SPP_LAB3\SPP_LAB3\bin\Debug\SPP_LAB3.pdb
+C:\Users\vital\RiderProjects\SPP_LAB3\SPP_LAB3\obj\Debug\SPP_LAB3.csprojResolveAssemblyReference.cache
+C:\Users\vital\RiderProjects\SPP_LAB3\SPP_LAB3\obj\Debug\MainWindow.g.cs
+C:\Users\vital\RiderProjects\SPP_LAB3\SPP_LAB3\obj\Debug\App.g.cs
+C:\Users\vital\RiderProjects\SPP_LAB3\SPP_LAB3\obj\Debug\SPP_LAB3_MarkupCompile.cache
+C:\Users\vital\RiderProjects\SPP_LAB3\SPP_LAB3\obj\Debug\SPP_LAB3_MarkupCompile.lref
+C:\Users\vital\RiderProjects\SPP_LAB3\SPP_LAB3\obj\Debug\MainWindow.baml
+C:\Users\vital\RiderProjects\SPP_LAB3\SPP_LAB3\obj\Debug\SPP_LAB3.g.resources
+C:\Users\vital\RiderProjects\SPP_LAB3\SPP_LAB3\obj\Debug\SPP_LAB3.Properties.Resources.resources
+C:\Users\vital\RiderProjects\SPP_LAB3\SPP_LAB3\obj\Debug\SPP_LAB3.csproj.GenerateResource.Cache
+C:\Users\vital\RiderProjects\SPP_LAB3\SPP_LAB3\obj\Debug\SPP_LAB3.csproj.CoreCompileInputs.cache
+C:\Users\vital\RiderProjects\SPP_LAB3\SPP_LAB3\obj\Debug\SPP_LAB3.exe
+C:\Users\vital\RiderProjects\SPP_LAB3\SPP_LAB3\obj\Debug\SPP_LAB3.pdb
