@@ -83,5 +83,11 @@
   <ItemGroup>
     <Folder Include="ViewModel" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AssemblyBrowser\AssemblyBrowser.csproj">
+      <Project>{1a84bdb1-b4cf-440e-af46-b52a21a643f3}</Project>
+      <Name>AssemblyBrowser</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

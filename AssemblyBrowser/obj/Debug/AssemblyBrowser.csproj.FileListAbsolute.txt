@@ -1,0 +1,6 @@
+C:\Users\vital\RiderProjects\SPP_LAB3\AssemblyBrowser\bin\Debug\AssemblyBrowser.dll
+C:\Users\vital\RiderProjects\SPP_LAB3\AssemblyBrowser\bin\Debug\AssemblyBrowser.pdb
+C:\Users\vital\RiderProjects\SPP_LAB3\AssemblyBrowser\obj\Debug\AssemblyBrowser.csprojResolveAssemblyReference.cache
+C:\Users\vital\RiderProjects\SPP_LAB3\AssemblyBrowser\obj\Debug\AssemblyBrowser.csproj.CoreCompileInputs.cache
+C:\Users\vital\RiderProjects\SPP_LAB3\AssemblyBrowser\obj\Debug\AssemblyBrowser.dll
+C:\Users\vital\RiderProjects\SPP_LAB3\AssemblyBrowser\obj\Debug\AssemblyBrowser.pdb
