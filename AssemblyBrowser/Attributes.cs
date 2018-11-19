@@ -8,7 +8,7 @@ namespace AssemblyBrowser
         {
             string result = "";
 
-            return result + GetModifiers(ti) + GetAtr(ti) + GetClass(ti);
+            return result + " " + GetModifiers(ti)+ " " + GetAtr(ti) + " " + GetClass(ti) + " ";
         }
         
         public static string GetModifiers(Type type)

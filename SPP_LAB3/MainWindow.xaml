@@ -12,6 +12,19 @@
            <ColumnDefinition Width="1*"/>
            <ColumnDefinition Width="1*"/>
        </Grid.ColumnDefinitions>
-       <Button Content="Show" Width="100" Height="40" Margin="0,400,0,0" Grid.Column="1" />
+       <Button Content="Show" Width="100" Height="40" Command="{Binding OpenCommand}" Margin="0,500,0,0" Grid.Column="1" />
+       <StackPanel DataContext="{Binding assemblyResult}" Margin="4,0,0,69" Orientation="Horizontal" Grid.ColumnSpan="3">
+            <TreeView x:Name="MainTreeView" HorizontalAlignment="Stretch" Margin="10" VerticalAlignment="Stretch"
+                      ItemsSource="{Binding NameSpaceses}" Width="592">
+                <TreeView.ItemTemplate>
+                    <HierarchicalDataTemplate ItemsSource="{Binding DataTypes}">
+                        <StackPanel>
+                            <Label Content="{Binding Path=name}" />
+                            <Label Content="{Binding Path=TypeInfo}"/>
+                        </StackPanel>
+                    </HierarchicalDataTemplate>
+                </TreeView.ItemTemplate>
+            </TreeView>
+        </StackPanel>
    </Grid>
 </Window>

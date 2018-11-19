@@ -12,7 +12,7 @@ namespace AssemblyBrowser
         public List<Field> fields;
         public List<Property> Properties;
         public List<Method> Methods;
-
+        
         public DataType(TypeInfo typeInfo)
         {
             name = Attributes.GetAtributes(typeInfo) + typeInfo.Name;
@@ -23,6 +23,8 @@ namespace AssemblyBrowser
             GetFields(typeInfo);
             GetMethods(typeInfo);
             GetProp(typeInfo);
+            
+            genTypeInfo();
         }
 
         private void GetProp(Type t)
@@ -60,22 +62,22 @@ namespace AssemblyBrowser
 
         private void genTypeInfo()
         {
-            TypeInfo = "Fields : ";
+            TypeInfo = "Fields :\n";
             foreach (var field in fields)
             {
-                TypeInfo += field.type + " " + field.name;
+                TypeInfo += "     -" +field.type + " " + field.name + "\n";
             }
 
-            TypeInfo += "Properties: ";
+            TypeInfo += "Properties: \n";
             foreach (var prop in Properties)
             {
-                TypeInfo += prop.type + " " + prop.name;
+                TypeInfo += "    -" + prop.type + " " + prop.name + "\n";
             }
 
-            TypeInfo += "Methods: ";
+            TypeInfo += "Methods: \n";
             foreach (var method in Methods)
             {
-                TypeInfo += method.signature + method.name + " ";
+                TypeInfo += "    -" + method.signature + " " + method.name + "\n";
             }
         }
     }

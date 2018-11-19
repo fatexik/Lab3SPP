@@ -9,7 +9,7 @@ namespace AssemblyBrowser
 
         public Method(MethodInfo mi)
         {
-            signature = Attributes.GetModifiers(mi.GetType()) + mi;
+            signature = Attributes.GetModifiers(mi.GetType()) + " " + mi + " ";
         }
     }
 }
