@@ -50,7 +50,7 @@ namespace AssemblyBrowser
                                OpenFileDialog openFileDialog = new OpenFileDialog();
                                if (openFileDialog.ShowDialog() == DialogResult.OK)
                                {
-                                   assemblyResult = _assemblyReader.reader(openFileDialog.FileName);
+                                   assemblyResult = _assemblyReader.read(openFileDialog.FileName);
                                }
                            }
                            catch (Exception ex)

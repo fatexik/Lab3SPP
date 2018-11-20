@@ -6,20 +6,20 @@ namespace AssemblyBrowser
     public class AssemblyReader
     {
 
-        public AssemblyResult reader(String path)
+        public AssemblyResult read(String path)
         {
             AssemblyResult assemblyResult = new AssemblyResult();
             Assembly assembly = Assembly.LoadFrom(path);
 
             foreach (var type in assembly.DefinedTypes)
             {
-                if (type.Namespace!=null && assemblyResult.NameSpaceses.Find(x => x.name == type.Namespace) == null)
+                if (type.Namespace!=null && assemblyResult.NameSpaces.Find(x => x.name == type.Namespace) == null)
                 {
-                    assemblyResult.NameSpaceses.Add(new NameSpaces(type.Namespace));
+                    assemblyResult.NameSpaces.Add(new NameSpaces(type.Namespace));
                 }
             }
 
-            foreach (var nameSpacese in assemblyResult.NameSpaceses)
+            foreach (var nameSpacese in assemblyResult.NameSpaces)
             {
                 foreach (var type in assembly.DefinedTypes)
                 {

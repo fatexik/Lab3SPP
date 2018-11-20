@@ -5,11 +5,11 @@ namespace AssemblyBrowser
 {
     public class AssemblyResult
     {
-        public List<NameSpaces> NameSpaceses { set; get; }
+        public List<NameSpaces> NameSpaces { set; get; }
 
         public AssemblyResult()
         {
-            NameSpaceses = new List<NameSpaces>();
+            NameSpaces = new List<NameSpaces>();
         }
     }
 }

@@ -4,6 +4,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SPP_LAB3", "SPP_LAB3\SPP_LA
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssemblyBrowser", "AssemblyBrowser\AssemblyBrowser.csproj", "{1A84BDB1-B4CF-440E-AF46-B52A21A643F3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{D80F906F-FDB5-4024-89AA-0ABE8E38DF42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestDll", "TestDll\TestDll.csproj", "{4E82FB1D-3475-4A85-9CE4-194A9A05AC30}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +22,13 @@ Global
 		{1A84BDB1-B4CF-440E-AF46-B52A21A643F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A84BDB1-B4CF-440E-AF46-B52A21A643F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A84BDB1-B4CF-440E-AF46-B52A21A643F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D80F906F-FDB5-4024-89AA-0ABE8E38DF42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D80F906F-FDB5-4024-89AA-0ABE8E38DF42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D80F906F-FDB5-4024-89AA-0ABE8E38DF42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D80F906F-FDB5-4024-89AA-0ABE8E38DF42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E82FB1D-3475-4A85-9CE4-194A9A05AC30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E82FB1D-3475-4A85-9CE4-194A9A05AC30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E82FB1D-3475-4A85-9CE4-194A9A05AC30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E82FB1D-3475-4A85-9CE4-194A9A05AC30}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

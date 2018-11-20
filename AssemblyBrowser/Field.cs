@@ -10,15 +10,15 @@ namespace AssemblyBrowser
 
         public Field(FieldInfo fieldInfo)
         {
-            name = fieldInfo.Name;
+            name = fieldInfo.Name + " ";
             type = Attributes.GetModifiers(fieldInfo.GetType());
             if (fieldInfo.FieldType.IsGenericType)
             {
-                type += fieldInfo.FieldType.Name + "<" + GetGenericType(fieldInfo.FieldType.GenericTypeArguments) + ">";
+                type += fieldInfo.FieldType.Name + " <" + GetGenericType(fieldInfo.FieldType.GenericTypeArguments) + "> ";
             }
             else
             {
-                type += fieldInfo.FieldType.Name;
+                type += " " + fieldInfo.FieldType.Name + " ";
             }
         }
         
@@ -28,9 +28,9 @@ namespace AssemblyBrowser
             foreach(Type genericType in types)
             {
                 if (types.GetType().IsGenericType)
-                    result += "<" + GetGenericType(genericType.GetType().GenericTypeArguments) + ">";
+                    result += " <" + GetGenericType(genericType.GetType().GenericTypeArguments) + "> ";
                 else
-                    result += genericType.Name + " ";
+                    result +=" "+genericType.Name + " ";
             }
 
             return result;
