@@ -1,0 +1,6 @@
+C:\Users\vital\RiderProjects\SPP_LAB3\TestDll\bin\Debug\TestDll.dll
+C:\Users\vital\RiderProjects\SPP_LAB3\TestDll\bin\Debug\TestDll.pdb
+C:\Users\vital\RiderProjects\SPP_LAB3\TestDll\obj\Debug\TestDll.csprojResolveAssemblyReference.cache
+C:\Users\vital\RiderProjects\SPP_LAB3\TestDll\obj\Debug\TestDll.csproj.CoreCompileInputs.cache
+C:\Users\vital\RiderProjects\SPP_LAB3\TestDll\obj\Debug\TestDll.dll
+C:\Users\vital\RiderProjects\SPP_LAB3\TestDll\obj\Debug\TestDll.pdb

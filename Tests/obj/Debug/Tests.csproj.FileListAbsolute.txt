@@ -1,0 +1,12 @@
+C:\Users\vital\RiderProjects\SPP_LAB3\Tests\bin\Debug\Tests.dll
+C:\Users\vital\RiderProjects\SPP_LAB3\Tests\bin\Debug\Tests.pdb
+C:\Users\vital\RiderProjects\SPP_LAB3\Tests\bin\Debug\AssemblyBrowser.dll
+C:\Users\vital\RiderProjects\SPP_LAB3\Tests\bin\Debug\nunit.framework.dll
+C:\Users\vital\RiderProjects\SPP_LAB3\Tests\bin\Debug\AssemblyBrowser.pdb
+C:\Users\vital\RiderProjects\SPP_LAB3\Tests\bin\Debug\nunit.framework.xml
+C:\Users\vital\RiderProjects\SPP_LAB3\Tests\obj\Debug\Tests.csprojResolveAssemblyReference.cache
+C:\Users\vital\RiderProjects\SPP_LAB3\Tests\obj\Debug\Tests.csproj.CoreCompileInputs.cache
+C:\Users\vital\RiderProjects\SPP_LAB3\Tests\obj\Debug\Tests.dll
+C:\Users\vital\RiderProjects\SPP_LAB3\Tests\obj\Debug\Tests.pdb
+C:\Users\vital\RiderProjects\SPP_LAB3\Tests\bin\Debug\TestDll.dll
+C:\Users\vital\RiderProjects\SPP_LAB3\Tests\bin\Debug\TestDll.pdb
